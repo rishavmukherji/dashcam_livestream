@@ -91,7 +91,7 @@ article{
 /* Section 1 */
 
 #section-1{
-    background:url(img/eiffel-2.jpg) 50% 0 no-repeat;
+    background:url(img/eyeSpy.jpg) 50% 0 no-repeat;
     background-size:cover;
 }
 
@@ -117,15 +117,139 @@ article{
         font-size:48px;
     }
 
-/* Section 2 */
-#section-2{
+/* Section Motivation */
+#section-motivation{
+    background:url(img/motivation.png);
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
+    #section-motivation header{
+        color:#FFF;
+        position:absolute;
+        top:30%;
+        left:50%;
+        margin:0 0 0 -350px;
+        width:700px;
+        text-align:center;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+        line-height:1.1;
+    }
 
+    #section-motivation h1{
+        font-size:120px;
+    }
+
+    #section-motivation h2{
+        text-transform:capitalize;
+        opacity:.75;
+        font-size:48px;
+    }
+
+/* Section End */
+
+#section-end{
+    background:url(img/end.jpg) 100% 100% no-repeat;
+}
+
+#section-end h1{
+    color:#ffffff;
+    font-size: 124px;
+    text-align: center;
+    margin-right: -550px;
+    margin-top: 5%;
+}
+
+    
+
+/* Section 2 */
+#section-2 h1{
+    font-size: 64px;
+    width: 800px;
+    text-align: center;
+    margin-left: -225px;
+    margin-top: -100px;
+}
+
+#section-2 h2{
+    font-size: 36px;
+    width: 800px;
+    text-align: center;
+    margin-left: -260px;
+}
+
+#section-2 li{
+    list-style-type: circle;
+}
+
+/* Section ThreatModel */
+#section-threatmodel h1{
+    font-size: 64px;
+    width: 800px;
+    text-align: center;
+    margin-left: -255px;
+}
+
+#section-threatmodel h2{
+    font-size: 36px;
+    width: 800px;
+    text-align: center;
+    margin-left: -260px;
+}
+
+#section-threatmodel h3{
+        font-size: 24px;
+        width: 800px;
+        margin-left: -260px;
+}
+
+#section-threatmodel li{
+    list-style-type: circle;
+}
+
+/* Section Question */
+#section-question h1{
+    font-size: 64px;
+    width: 800px;
+    text-align: center;
+    margin-left: -260px;
+    margin-top: -100px;
+}
+
+#section-question h2{
+    font-size: 36px;
+    width: 800px;
+    text-align: center;
+    margin-left: -260px;
+}
+
+#section-question h3{
+    font-size: 36px;
+    width: 970px;
+    text-align: center;
+    margin-left: -350px;
+}
+
+#section-question li{
+    list-style-type: circle;
+}
 /* Section 3 */
 #section-3{
     
 }
+    #section-3 h2{
+        font-size: 36px;
+    }
+
+    #section-3 h3{
+        font-size: 24px;
+    }
+
+    #sig{
+    list-style-type: circle;
+    }
+
     #section-3 .photos{
         padding:150px 0;
         width:620px;
