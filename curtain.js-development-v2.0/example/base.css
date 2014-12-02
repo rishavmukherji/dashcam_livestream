@@ -179,16 +179,29 @@ article{
     margin-left: -260px;
 }
 
+#section-2 h3{
+    font-size: 24px;
+    width: 800px;
+    text-align: center;
+    margin-left: 324px;
+}
+
 #section-2 li{
     list-style-type: circle;
 }
 
+/* trial run */
+#trialrun{
+    margin-top: -136px;
+    margin-left: 444px;
+}
 /* Section ThreatModel */
 #section-threatmodel h1{
     font-size: 64px;
     width: 800px;
     text-align: center;
     margin-left: -255px;
+    margin-top: -60px;
 }
 
 #section-threatmodel h2{
@@ -205,6 +218,33 @@ article{
 }
 
 #section-threatmodel li{
+    list-style-type: circle;
+}
+
+/* section solution */
+#section-solution h1{
+    font-size: 64px;
+    width: 800px;
+    text-align: center;
+    margin-left: -255px;
+    margin-top: -60px;
+}
+
+#section-solution h2{
+    font-size: 36px;
+    width: 800px;
+    text-align: center;
+    margin-left: -260px;
+}
+
+#section-solution h3{
+        font-size: 24px;
+        width: 800px;
+        margin-left: -160px;
+        text-align: left;
+}
+
+#section-solution li{
     list-style-type: circle;
 }
 
@@ -244,6 +284,10 @@ article{
 
     #section-3 h3{
         font-size: 24px;
+    }
+
+    #section-3 h4{
+        font-size: 20px;
     }
 
     #sig{
